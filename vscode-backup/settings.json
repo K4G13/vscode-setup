@@ -1,0 +1,121 @@
+{
+  "window.titleBarStyle": "custom",
+  "window.title": "🔥PROJECT • ${rootName}",
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Vim Dark Hard",
+  "workbench.iconTheme": "flow-dark",
+  "workbench.tree.indent": 22,
+  "workbench.navigationControl.enabled": false,
+
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  "chat.commandCenter.enabled": false,
+
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.autohide": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.inlineSuggest.suppressSuggestions": true,
+
+  "workbench.colorCustomizations": {
+    "editorGroup.border": "#00000000",
+    "sideBar.border": "#00000000",
+    "panel.border": "#00000000",
+    "activityBar.border": "#00000000",
+    "statusBar.border": "#00000000",
+    "titleBar.border": "#00000000",
+    "tab.border": "#00000000",
+    "editorGroupHeader.tabsBorder": "#00000000",
+
+    "tab.activeBorder": "#00000000",
+    "tab.activeBorderTop": "#EABF3B",
+
+    "list.activeSelectionForeground": "#EABF3B",
+    "list.focusForeground": "#EABF3B",
+    "list.activeSelectionIconForeground": "#EABF3B",
+    "list.inactiveSelectionForeground": "#EABF3B",
+    "list.highlightForeground": "#EABF3B"
+  },
+
+  /// -- PLUGINS --
+
+  // code spell checker
+  "cSpell.language": "en,pl",
+  "cSpell.diagnosticLevel": "Hint",
+
+  // error lens
+  "errorLens.delay": 800, // (ms)
+  "errorLens.followCursor": "closestProblem",
+
+  // todo-tree customization
+  "todo-tree.highlights.defaultHighlight": {
+    "foreground": "#1E2021",
+    "background": "#EABF3B",
+    "fontWeight": "bold",
+    "icon": "check",
+    "iconColour": "#D0C499"
+  },
+  "todo-tree.general.tags": [
+    "TODO",
+    "todo",
+    "FIXME",
+    "fixme",
+    "FIX",
+    "fix",
+    "BUG",
+    "bug",
+    "HACK",
+    "hack",
+    "NOTE",
+    "note",
+    "[   ]",
+    "[  ]",
+    "[ ]",
+    "[]",
+    "[ X ]",
+    "[ x ]",
+    "[X]",
+    "[x]"
+  ],
+  "todo-tree.general.tagGroups": {
+    "TODO": ["TODO", "todo"],
+    "FIXME": ["FIXME", "fixme", "FIX", "fix"],
+    "BUG": ["BUG", "bug"],
+    "HACK": ["HACK", "hack"],
+    "NOTE": ["NOTE", "note"],
+    "DONE": ["[X]", "[x]", "[ X ]", "[ x ]"],
+    "NOTDONE": ["[   ]", "[  ]", "[ ]", "[]"]
+  },
+  "todo-tree.highlights.customHighlight": {
+    "FIXME": {
+      "background": "#D13129",
+      "iconColour": "#D13129",
+      "rulerLane": "full"
+    },
+    "BUG": { "background": "#D13129", "iconColour": "#D13129" },
+    "DONE": { "background": "#D0C499", "icon": "check-circle-fill" },
+    "NOTDONE": {
+      "background": "#D13129",
+      "iconColour": "#D13129",
+      "icon": "check-circle"
+    }
+  },
+
+  "basicUIAnimations.pasteHighlightColor": "rgba(255, 255, 255, 0.1)",
+  "basicUIAnimations.typingEffectColor": "rgba(255, 255, 255, 0.2)",
+
+  "cody.commandCodeLenses": true,
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "svelte.enable-ts-plugin": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "workbench.layoutControl.enabled": false
+}
